@@ -28,17 +28,17 @@ const Nav = () => {
 </details>
 </li>
 
-<li className="text-md"><a>Contact</a></li>
+<NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
 
 
 
       </ul>
     </div>
-    <a className=" text-xl text-blue-400 font-bold hidden lg:block">Success</a>
+    <a className=" text-3xl text-blue-400 font-bold hidden lg:block">Success</a>
   </div>
   
   <div className="navbar-end">
-  <a className="  lg:hidden text-blue-400 font-bold text-xl ">Success</a>
+  <a className="  lg:hidden text-blue-400 font-bold text-3xl ">Success</a>
 
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 flex items-center justify-center gap-6">
@@ -59,7 +59,8 @@ const Nav = () => {
         </details>
       </li>
 
-      <li className="text-md"><a>Contact</a></li>
+      <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
+    
       
     
       

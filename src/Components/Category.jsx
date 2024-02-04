@@ -33,12 +33,12 @@ const Category = () => {
                                {
                                   CategoriesData.map(data=><div key={data.id}>
                                       
-                                      <div className="hover:bg-white rounded-xl m-4 p-8 w-[80%]">
+                                      <div className="hover:bg-white  transition-shadow rounded-xl m-4 p-8 w-[80%]">
                                            <img className="w-20" src={data.logo} alt="" />
                                            <h1 className="font-bold text-2xl py-5 text-black">{data?.title}</h1>
                                            <p className="pr-12">{data?.description}</p>
 
-                                           <a className="mt-10 font-bold" href="#">Learn more→</a>
+                                           <a className="mt-10 font-bold" href="#">Learn more →</a>
                                       </div>
                                        
                                   </div>)

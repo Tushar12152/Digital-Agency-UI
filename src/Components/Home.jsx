@@ -1,6 +1,7 @@
 import Agncy from "./Agncy";
 import { Banner } from "./Banner";
 import Category from "./Category";
+import Customers from "./Customers";
 import Design from "./Design";
 import Solution from "./Solution";
 
@@ -12,6 +13,7 @@ const Home = () => {
              <Category/>
              <Solution/>
              <Agncy/>
+             <Customers/>
         </div>
     );
 };

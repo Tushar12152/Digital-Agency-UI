@@ -60,7 +60,7 @@ const Solution = () => {
              <h1 className="text-center font-bold mb-5 text-2xl ">We are Already Build Solution for...</h1>
 
              <Swiper
-        slidesPerView={'auto'}
+        slidesPerView={3}
         centeredSlides={true}
         spaceBetween={30}
         pagination={{

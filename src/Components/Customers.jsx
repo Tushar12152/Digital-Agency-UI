@@ -43,11 +43,11 @@ const Customers = () => {
                              {
                                 customersInfo.map(card=><div  key={card.id}>
                                     
-                                    <div className="bg-white p-10 rounded-xl relative">
+                                    <div className="bg-white p-10 rounded-xl  relative">
                                          <h1 className="font-bold text-xl pl-2">{card.name}</h1>
                                          <h1 className="font-semibold text-gray-400 text-lg pl-2">{card.title}</h1>
                                          <p className="pl-2">{card?.description}</p>
-                                         <div className="bg-blue-400 w-28 p-2 rounded-full absolute border-2 border-black bottom-48 hover:border-yellow-400 cursor-pointer lg:bottom-36 z-10">
+                                         <div className="bg-blue-400 w-28 p-2 rounded-full absolute border-2 border-black bottom-48 hover:border-yellow-400 cursor-pointer lg:bottom-36 z-10 ">
                                              <img src={card?.img} alt="" />
                                          </div>
                                     </div>

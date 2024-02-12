@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <div>
              <Container>
-             <div className="navbar bg-base-100">
+             <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,7 +28,7 @@ const Nav = () => {
 </details>
 </li>
 
-<NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
+<NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
 
 
 
@@ -59,7 +59,7 @@ const Nav = () => {
         </details>
       </li>
 
-      <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
+      <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
     
       
     

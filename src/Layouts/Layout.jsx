@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 
 const Layout = () => {
     return (
-        <div>
+        <div className="bg-neutral-content">
             <Nav/>
             <Outlet/>
             <Footer/>

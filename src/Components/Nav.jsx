@@ -28,7 +28,7 @@ const Nav = () => {
 </details>
 </li>
 
-<NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
+<NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
 
 
 
@@ -59,7 +59,7 @@ const Nav = () => {
         </details>
       </li>
 
-      <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
+      <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }> Contact</NavLink>
     
       
     

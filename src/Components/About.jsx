@@ -1,9 +1,11 @@
 import Container from "../Container/Container";
 import Title from "../Shared/Title";
+import Customers from './Customers';
 
 const About = () => {
     return (
-       <Container>
+      <div>
+         <Container>
          <div className="mt-10">
             <Title Heading={'About Us'}></Title>
              <h3 className="p-2 bg-gray-400 rounded-full w-48 text-center mx-auto mt-4 text-white">The Secret Ingredient</h3>
@@ -47,9 +49,13 @@ const About = () => {
                    </div>
              </div>
              </div>
+
+           
             
         </div>
        </Container>
+       <Customers/>
+      </div>
     );
 };
 

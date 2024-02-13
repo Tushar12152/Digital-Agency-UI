@@ -22,6 +22,24 @@ const Category = () => {
             title:'Branding',
             description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
         },
+        {
+            id:4,
+            logo:'https://i.ibb.co/YNy1vkd/seo-1-1.png',
+            title:'SEO',
+            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+        },
+        {
+            id:5,
+            logo:'https://i.ibb.co/Mg382hJ/logo-design-1.png',
+            title:'Logo Design',
+            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+        },
+        {
+            id:6,
+            logo:'https://i.ibb.co/xgs5PKg/ppc-1.png',
+            title:'PPC',
+            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+        },
     ]
 
 

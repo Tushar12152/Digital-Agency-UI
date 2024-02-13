@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Title = ({Heading}) => {
     return (
         <div>
-            <h1 className='text-center font-bold text-5xl'>{Heading}</h1>
+            <h1 className='text-center mt-10 font-bold text-5xl'>{Heading}</h1>
         </div>
     );
 };

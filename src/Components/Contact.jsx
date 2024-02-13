@@ -21,8 +21,8 @@ const Contact = () => {
                         <h1 className="font-bold text-5xl ">Have a <span className="text-blue-400">Cool Project?</span> Get in touch!</h1>
 
                      </div>
-                     <div className="lg:w-[50%]">
-                        <form onSubmit={handleSubmit}>
+                     <div className="lg:w-[50%] shadow-2xl  rounded-xl py-10">
+                        <form className="ml-20  " onSubmit={handleSubmit}>
                          <input className="border w-[70%] p-4 ml-10 rounded-lg mb-5" placeholder="Name" type="text" name="name" id="" required/>
                          <input className="border w-[70%] p-4 ml-10 rounded-lg mb-5" placeholder="Phone" type="number" name="phone" id="" required/>
                          <input className="border w-[70%] p-4 ml-10 rounded-lg mb-5" placeholder="Email" type="text" name="email" id="" required/>

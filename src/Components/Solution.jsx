@@ -70,11 +70,11 @@ const Solution = () => {
         className="mySwiper"
       >
        
-           <div className="flex  flex-row items-center mt-24">
+           <div className="flex flex-row items-center mt-24">
            {
                solutions.map(item=><div key={item.id}>
                  <SwiperSlide>
-                     <img className=" h-20" src={item?.img} alt="" />
+                     <img className=" h-20 " src={item?.img} alt="" />
                      </SwiperSlide>
                </div>)
             }

@@ -41,8 +41,8 @@ const WebDev = () => {
 
                  <div className="bg-blue-200 relative rounded-tl-full rounded-tr-full mt-28">
                  <img className="absolute bottom-60 left-[295px] lg:block hidden" src={'https://i.ibb.co/NVFQR8m/Web-Design-services-details-jim-fahad-digital-1.png'} alt="" />
-                      <div className="min-h-screen">
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  ">
+                 <div className="min-h-screen ">
+                          <div className="grid grid-cols-1 w-[80%] ml-28   md:grid-cols-2 lg:grid-cols-4 gap-6  absolute top-96">
                           {cardInfo.map(item=><div key={item?.id}>
                             <div className="shadow-2xl  p-6">
                                  <img className="w-10 mx-auto " src={item?.img} alt="" />

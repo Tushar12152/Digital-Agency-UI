@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../Container/Container";
 
 
@@ -8,13 +9,15 @@ const Category = () => {
             id:1,
             logo:'https://i.ibb.co/4twGkHW/Services-UIUX-Jim-Fahad-Digital-1.png',
             title:'UI/UX Design',
-            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            to:'/ui'
         },
         {
             id:2,
             logo:'https://i.ibb.co/mN3Py42/Services-Web-Design-Jim-Fahad-Digital-1.png',
             title:'Web Design',
-            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            to:'/web'
         },
         {
             id:3,
@@ -26,13 +29,15 @@ const Category = () => {
             id:4,
             logo:'https://i.ibb.co/YNy1vkd/seo-1-1.png',
             title:'SEO',
-            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            to:'/seo'
         },
         {
             id:5,
             logo:'https://i.ibb.co/Mg382hJ/logo-design-1.png',
             title:'Logo Design',
-            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+            description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            to:'/logo'
         },
         {
             id:6,
@@ -51,13 +56,15 @@ const Category = () => {
                                {
                                   CategoriesData.map(data=><div key={data.id}>
                                       
-                                      <div className="hover:bg-white  transition-shadow rounded-xl m-4 p-8 w-[80%]">
+                                    <Link to={data?.to}>
+                                    <div className="hover:bg-white  transition-shadow rounded-xl m-4 p-8 w-[80%]">
                                            <img className="w-20" src={data.logo} alt="" />
                                            <h1 className="font-bold text-2xl py-5 text-black">{data?.title}</h1>
                                            <p className="pr-12">{data?.description}</p>
 
                                            <a className="mt-10 font-bold" href="#">Learn more →</a>
                                       </div>
+                                    </Link>
                                        
                                   </div>)
                                }

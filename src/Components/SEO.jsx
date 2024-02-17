@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../Container/Container";
 import Title from "../Shared/Title";
 
@@ -48,7 +49,7 @@ const Seo = () => {
                   <div className="card-body">
                     <h2 className="card-title">{card?.name}</h2>
                      <div className="card-actions justify-end">
-                      <button className="btn bg-blue-400 hover:bg-yellow-600 text-white">Purchase</button>
+                      <Link  to={`order/${card?.id}`} className="btn bg-blue-400 hover:bg-yellow-600 text-white">Purchase</Link>
                     </div>
                   </div>
                 </div>

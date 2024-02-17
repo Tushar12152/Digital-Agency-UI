@@ -64,7 +64,7 @@ const Nav = () => {
 
           <NavLink to="/ui" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }>UI/UX Design</NavLink>
 
-          <NavLink to="/seo" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }>SEO</NavLink>
+          <NavLink to="/seo" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }>Digital Marketing</NavLink>
 
           <NavLink to="/logo" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-blue-400 text-md" : "text-md" }>Logo Design</NavLink>
 
